@@ -1,0 +1,161 @@
+body, h1, p, h2{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+ font: 16px/28px arial, sans-serif;
+ background-color: #eaeaea;
+ background-image: url(img/doodles.png);
+ color: #333333;
+}
+
+.top-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 40px;
+	background-color: lightskyblue;
+	border-bottom: 3px solid salmon;
+	z-index: 9999;
+}
+
+.container {
+	width: 960px;
+	margin: 80px auto;
+	background-color: #ffffff;
+	position: relative;
+
+}
+
+.twitter {
+	width: 200px;
+	height: 200px;
+	background-image: url(img/twitter.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	text-indent: -9999px;
+	position: absolute;
+	top: 30px;
+	right: -100px;
+
+
+}
+
+.header {
+  padding: 20px;
+  padding-bottom: 1px;
+}
+
+.header .judul {
+	font-size: 40px;
+	font-weight: bold;
+	margin-right: 10px;
+}
+
+.header ul li {
+	display: inline-block;
+	margin-left: -60px;
+	padding: 23px;
+	margin-right: 20px;
+	margin-top: -20px;
+}
+
+.header a {
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+}
+
+.header a:hover {
+	background-color: lightgreen;
+	color: white;
+}
+
+.hero {
+	height: 450px;
+	background-image: url(img/dog.png);
+	background-size: cover;
+	background-position: 0 -50px;
+	border-top: 5px solid salmon;
+	border-bottom: 5px solid lightskyblue;
+
+}
+
+.main {
+	width: 600px;
+	padding: 20px;
+	font-weight: bold;
+	box-sizing: border-box;
+	float: left;
+}
+
+.main h2 {
+	font-size: 32px;
+	font-weight: bold;
+}
+
+.main .penulis {
+	font-size: 12px;
+	margin-top: 5px;
+}
+
+.content a {
+	color: salmon;
+	text-decoration: none;
+}
+
+.main p {
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+ 
+/* sidebar */
+.sidebar {
+	width: 300px;
+	float: right;
+	padding: 15px;
+}
+
+.sidebar h3 {
+	font-weight: bolder;
+	color: black;
+}
+
+.sidebar img {
+	width: 100px;
+	height: 100px;
+	margin-top: -15px;
+	float: left;
+	padding: 8px;
+}
+
+.sidebar p {
+	font: 12px/18px arial;
+	color: skyblue;
+}
+.footer {
+	background-color: #333;
+	padding: 10px;
+}
+
+.footer .copy {
+	color: #eaeaea;
+	text-align: center;
+	font-size: 12px;
+}
+
+/* clearfix */
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
